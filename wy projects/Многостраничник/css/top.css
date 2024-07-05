@@ -1,0 +1,38 @@
+.top {
+  background: url(../images/cards/background.webp) center center/cover no-repeat;
+  min-height: 900px;
+  padding: 30px;
+}
+.top__slider-item {
+  display: flex;
+}
+.top__slider-title {
+  color: #363838;
+  font-family: Montserrat;
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 135px;
+  margin: 150px 0 50px 80px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.top__slider-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 1px;
+  background: #6D7278;
+  bottom: 0;
+}
+.top__slider-text {
+  max-width: 580px;
+  margin-left: 80px;
+}
+.top__slider-img {
+  margin-left: 0;
+  max-width: 800px;
+  height: 815px;
+  height: 400px;
+  margin-top: 130px;
+}/*# sourceMappingURL=top.css.map */
